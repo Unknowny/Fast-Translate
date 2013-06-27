@@ -13,7 +13,7 @@ var d = document,
 	last, tout,
 	elem = d.createElement("span");
 
-elem.setAttribute("style", "display:inline-block;background-color:white;padding:0 2px;min-height:10px;min-width:40px;position:fixed;right:7px;top:7px;box-shadow:0 0 1px black;");
+elem.setAttribute("style", "display:inline-block;background-color:white;padding:0 2px;min-height:10px;min-width:40px;position:fixed;right:7px;top:7px;z-index:999999999999;box-shadow:0 0 1px black;");
 elem.innerHTML = "<img src='https://raw.github.com/Unknowny/Fast-Translate/master/loader.gif' />";
 
 function main (e) {
