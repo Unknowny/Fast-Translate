@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        En-Ru Word Translator
-// @description Translates words under curser when CTRL is pressed.
+// @description Translates word under curser when CTRL is pressed.
 // @namespace   fast_translate
 // @include     http://*
 // @include     https://*
